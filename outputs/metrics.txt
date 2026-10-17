@@ -1,0 +1,20 @@
+AI-Powered Cybersecurity Threat Detection System
+
+Model: Random Forest
+Dataset: NSL-KDD
+
+Accuracy:  0.7771
+Precision: 0.9690
+Recall:    0.6285
+F1 Score:  0.7625
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.66      0.97      0.79      9711
+      Threat       0.97      0.63      0.76     12833
+
+    accuracy                           0.78     22544
+   macro avg       0.82      0.80      0.78     22544
+weighted avg       0.84      0.78      0.77     22544
+

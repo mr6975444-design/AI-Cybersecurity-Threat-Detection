@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+# Generated model and large prediction files
+models/*.pkl
+outputs/*.csv
+
+# Dataset files are downloaded separately
+data/*.txt
